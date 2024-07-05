@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardWeb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Web" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardCamera"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Camera" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardVideo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:backgroundTint="@color/purple_200"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="20dp">
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="Video" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
